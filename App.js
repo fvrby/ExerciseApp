@@ -20,7 +20,8 @@ function App(){
           {data}
         </div>  
         <div className="digits">
-          </div>  
+          {calcBtns}
+        </div>  
         </div>
     );
 }
