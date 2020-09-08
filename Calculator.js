@@ -15,20 +15,30 @@ function Calculator(){
            );
         });
     return (
-        <div className="outline">
+    <div className="outline">
         <div className="input">
           {data}
         </div>  
         <div className="digits">
-        <div className="grid">
+          {calcBtns}
+        </div>
+        /* First Grid */
+      <div className="grid">
         <button onClick={()=> setData(data.substr(0,data.length - 1))}>
           Clear
         </button>
-        </div>
-          {calcBtns}
-        </div>  
-        </div>
-    );
+        <button onClick={()=> setData("")}>
+          AC
+        </button>
+      </div>
+        /* Second Grid */
+      <div className="subgrid">
+        <button onClick={e=> setData(data + e.target.value)} value="">
+          +
+        </button>
+      </div>
+  </div>  
+  );
 }
 
 const rootElement = document.getElementById("root");

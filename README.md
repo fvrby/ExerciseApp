@@ -9,6 +9,9 @@ v.0.2 - Add the necesary to make first hello world.
         Add .input in Styles.css 
         Add a new className call "digits" 
 V.0.3 - Add calcBtns to digits. if i try, i see the "keyboard"
-        Add className grid and inside this a Clear Btn
+        Add className grid, in this grid you find the "delete buttons" 
+        Add a Clear Btn
 V.0.4 - Rename File App.Js to Calculator.Js
-
+        Add AC Button, this clean the screen
+V.0.5 - Add className subgrid, in this grid you find the operations
+        Add + (sum) Button
