@@ -2,7 +2,7 @@ import React ,{useState}   from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 
-function App(){
+function Calculator(){
     const [data, setData] = useState("");
     const calcBtns = [];
     [9, 8, 7, 6, 5, 4, 3, 2, 1, 0, ".", "%"].forEach((item) => {
@@ -20,6 +20,11 @@ function App(){
           {data}
         </div>  
         <div className="digits">
+        <div className="grid">
+        <button onClick={()=> setData(data.substr(0,data.length - 1))}>
+          Clear
+        </button>
+        </div>
           {calcBtns}
         </div>  
         </div>
@@ -27,4 +32,4 @@ function App(){
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<Calculator />, rootElement);
