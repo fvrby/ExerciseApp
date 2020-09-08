@@ -33,8 +33,17 @@ function Calculator(){
       </div>
         /* Second Grid */
       <div className="subgrid">
-        <button onClick={e=> setData(data + e.target.value)} value="">
+        <button onClick={e=> setData(data + e.target.value)} value="+">
           +
+        </button>
+        <button onClick={e=> setData(data + e.target.value)} value="-">
+          -
+        </button>
+        <button onClick={e=> setData(data + e.target.value)} value="x">
+          x
+        </button>
+        <button onClick={e=> setData(data + e.target.value)} value="/">
+          /
         </button>
       </div>
   </div>  
