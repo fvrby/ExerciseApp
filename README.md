@@ -30,6 +30,8 @@ V.1.0 - First Release
 V.1.1 - Some changes in styles.css
         Some changes in calculator.js, exactly, the name in grid. 
         :)
+        
+        See it on https://codesandbox.io/s/calculator-23p-miz4s?file=/src/index.js
 
         
         
