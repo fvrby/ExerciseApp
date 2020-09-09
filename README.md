@@ -24,4 +24,8 @@ V.0.7 - Add = (Final Score Button), when you like them, you enter in a try catch
         Fix an error in = button, it's works...
 V.0.8 - First pre-release. Calc works but don't have a beautifull design. 
         Work in beautifull and simple design.
+        Add a simple and beautifull design looks like the calculator for windows.
+        Add a new order for the app
+        
+        
         
