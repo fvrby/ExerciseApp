@@ -26,6 +26,8 @@ V.0.8 - First pre-release. Calc works but don't have a beautifull design.
         Work in beautifull and simple design.
         Add a simple and beautifull design looks like the calculator for windows.
         Add a new order for the app
-        
+V.1.0 - First Release
+V.1.1 - Some changes in styles.css
+
         
         
