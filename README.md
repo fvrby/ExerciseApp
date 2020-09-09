@@ -29,6 +29,7 @@ V.0.8 - First pre-release. Calc works but don't have a beautifull design.
 V.1.0 - First Release
 V.1.1 - Some changes in styles.css
         Some changes in calculator.js, exactly, the name in grid. 
+        :)
 
         
         
