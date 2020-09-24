@@ -39,6 +39,7 @@ V.1.0 - First Release
 
 V.1.1 - Some changes in styles.css
         Some changes in calculator.js, exactly, the name in grid. 
+	
 V.1.2 - Changes in Calculator.js
         add new const for better use and order. Called operator - result - screen and equal
         operator contains operators in the calc
