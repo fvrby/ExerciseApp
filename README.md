@@ -29,6 +29,16 @@ V.0.8 - First pre-release. Calc works but don't have a beautifull design.
 V.1.0 - First Release
 V.1.1 - Some changes in styles.css
         Some changes in calculator.js, exactly, the name in grid. 
-
+V.1.2 - Changes in Calculator.js
+        add new const for better use and order. Called operator - result - screen and equal
+        operator contains operators in the calc
+        result and screen now works separately, if i don't separate them. the calc display me "NaN" and don't works.this because I am not taking the operators.
+        dataB - operator - result stay "undefined" for waiting values.
+        now when i push on "calcbtns" i don't go to an target value, i set the number in insertNumber. i do this, because operators usually taking "integer" values and "0" too. 
+        construct insertNumbers use the new const equal (previously false) to take decisions without mistakes. 
+        add new const "handleClear" and "handleAC" using the previous data to erase correctly the screen changing their values.
+        now the screen show better the numbers. previously appear numbers in bad positions.
+        erase the last "total" for the new "setTotal". when i use the previously data for make a result correctly and easy to view.
+        thanks to all this "quality of life" changes, operators will not appear on screen because they were replaced by the const.
         
         
